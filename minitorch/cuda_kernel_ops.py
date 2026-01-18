@@ -139,6 +139,7 @@ class CudaKernelOps(TensorOps):
                 b._tensor._strides.astype(np.int32),
                 b.size,
                 len(b.shape),
+                fn_id
             )
             
             # END HW1_2
